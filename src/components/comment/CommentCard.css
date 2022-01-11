@@ -1,0 +1,16 @@
+.CommentCard {
+	max-width: 600px;
+	word-wrap: break-word;
+	vertical-align: middle;
+}
+
+.remove-comment-btn {
+	align-items: center;
+}
+
+#comment-border {
+	border: 1.5px groove lightslategray;
+	border-radius: 20px;
+	margin-bottom: 3px;
+	margin-top: 10px;
+}

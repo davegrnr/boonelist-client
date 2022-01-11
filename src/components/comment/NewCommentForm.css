@@ -1,0 +1,18 @@
+.NewCommentForm {
+	float: right;
+	width: 33%;
+	margin-right: 10%;
+}
+
+.comment-btn {
+	width: 50%;
+	margin: auto auto 4px auto;
+}
+
+textarea {
+	height: 200px;
+}
+
+#comment-form-header {
+	margin-right: auto;
+}

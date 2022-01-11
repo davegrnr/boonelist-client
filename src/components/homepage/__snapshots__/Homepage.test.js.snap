@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="Homepage"
+    >
+      <div
+        class="container"
+      >
+        <h1
+          class="boonelist-heading"
+        >
+          Welcome to Boonelist!
+        </h1>
+        <h3>
+          Check out local services offered and items for sale for the Boone, NC and surrounding areas in one convenient place
+        </h3>
+        <h3>
+          OR
+        </h3>
+        <h3>
+          Post your own 
+          <a
+            href="/services/new"
+          >
+            service
+          </a>
+           or 
+          <a
+            href="/sales/new"
+          >
+            item
+          </a>
+        </h3>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

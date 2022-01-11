@@ -1,0 +1,30 @@
+.SalesCard {
+	margin: auto;
+	width: 100%;
+	border: 1.5px groove lightslategray;
+	border-radius: 20px;
+	transition: .2s;
+}
+
+.SalesCard:hover {
+	background-color: rgb(219, 219, 219);
+	transition: .2s;
+	transform: scale(1.2);
+}
+
+.SalesCard-info {
+	margin-bottom: -20px;
+}
+
+.remove-btn {
+	width: 60px;
+	font-size: 10px;
+	font-weight: bold;
+	margin: auto auto 6px auto;
+	transition: .2s;
+}
+
+.remove-btn:hover {
+	transition: .2s;
+	transform: scale(1.2);
+}

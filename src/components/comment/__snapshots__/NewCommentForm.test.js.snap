@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="NewCommentForm"
+  >
+    <div
+      class="container"
+    >
+      <h4
+        id="comment-form-header"
+      >
+        Leave a comment
+      </h4>
+      <form>
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <textarea
+              class="form-control comment-text"
+              name="commentText"
+            />
+          </div>
+          <button
+            class="btn comment-btn btn-primary btn-sm"
+            type="submit"
+          >
+            Leave comment
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

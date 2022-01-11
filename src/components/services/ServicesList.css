@@ -1,0 +1,47 @@
+.NewServiceForm-link {
+	display: inline-block;
+	width: 20%;
+}
+
+.greenPlus {
+	height: 20px;
+	width: 20px;
+	margin: 0 5px 3px 0;
+}
+
+.popout {
+	animation: popout 1s ease;
+	-webkit-animation: popout 1s ease;
+}
+@keyframes popout {
+	from {
+		transform: scale(0);
+	}
+	80% {
+		transform: scale(1.2);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+@-webkit-keyframes popout {
+	from {
+		-webkit-transform: scale(0);
+	}
+	80% {
+		-webkit-transform: scale(1.2);
+	}
+	to {
+		-webkit-transform: scale(1);
+	}
+}
+
+.zoom:hover {
+	transition: transform .2s;
+	transform: scale(1.25); /* (150% zoom)*/
+}
+
+.zoom-2:hover {
+	transition: transform .2s;
+	transform: scale(1.25); /* (150% zoom)*/
+}

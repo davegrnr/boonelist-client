@@ -1,0 +1,25 @@
+.SalesDetail {
+	height: 100%;
+}
+
+.back-btn {
+	margin: auto;
+}
+
+.comments {
+	height: 100%;
+}
+
+.sales-link {
+	color: white;
+	text-decoration: none;
+}
+.sales-link:hover {
+	color: white;
+}
+
+#comment-header {
+	float: left;
+	margin-left: 21%;
+	margin-bottom: 6px;
+}
