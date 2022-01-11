@@ -10,10 +10,11 @@ const BASE_URL = process.env.REACT_APP_BASE_URL || "https://boonelist-server.her
  * be any API-aware stuff elsewhere in the frontend.
  *
  */
-
+ let token = process.env.TOKEN
+ 
 class BoonelistApi {
 // the token for interactive with the API will be stored here.
-    static token;
+    // static token;
 
     static async request(endpoint, data = {}, method = "get") {
         console.debug("API Call:", endpoint, data, method);
